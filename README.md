@@ -4,7 +4,7 @@ This project is created to demonstrate the use of [todo-issue](https://github.co
 You can clone this repository and test todo-issue.
 
 - Clone repository
-- Create todo.json
+- Create todo.json in the working directory (where pom.xml is)
 ```json
 {
   "git-server":"Github",
