@@ -8,6 +8,7 @@ You can clone this repository and test todo-issue.
 ```json
 {
   "git-server":"Github",
+  "gitlab-url":"https://gitlab.com/",
   "type":"user",
   "repository-username":"kujtimiihoxha",
   "issuer-username":"{your-user}",
