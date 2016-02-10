@@ -21,7 +21,7 @@ public class MyTest {
 
     public static void myMethod(){
         /**
-         *[todo]  $ This is an issue inside of a methid [issue=#2]  $
+         *[todo]  $ This is an issue inside of a method [issue=#2]  $
          * #/
          * # Method issue
          * The issue can be everywhere, also assignee and labels are not
