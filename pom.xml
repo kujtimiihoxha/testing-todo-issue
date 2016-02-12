@@ -13,12 +13,17 @@
                 <groupId>com.kujtimhoxha.plugins</groupId>
                 <artifactId>todo-issue-plugin</artifactId>
                 <configuration>
-                    <source>/src</source>
+                    <sources>
+                        <source>/home/kujtimiihoxha/Projects/testing-todo-issue/src</source>
+                    </sources>
                     <excludes>
                         <exclude>${basedir}/src/test</exclude>
                     </excludes>
+                    <types>
+                        <type>.java</type>
+                    </types>
                 </configuration>
-                <version>0.5</version>
+                <version>1.0.1</version>
                 <executions>
                     <execution>
                         <goals>

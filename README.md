@@ -6,14 +6,15 @@ You can clone this repository and test todo-issue.
 - Clone repository
 - Create todo.json in the working directory (where pom.xml is)
 ```json
-{
-  "git-server":"Github",
-  "gitlab-url":"https://gitlab.com/",
-  "repository-username":"kujtimiihoxha",
-  "issuer-username":"{your-user}",
-  "token":"{your-token}",
-  "repository":"testing-todo-issue"
-}
+    {
+      "git-server":"Github",
+      "gitlab-url":"https://gitlab.com/",
+      "repository-username":"kujtimiihoxha",
+      "issuer-username":"kujtimiihoxha",
+      "token":"token",
+      "repository":"todo-issue",
+      "file-link":true
+    }
 ```
 - Add an issue like described [here](https://github.com/kujtimiihoxha/todo-issue#syntax)
 - Run ```mvn clean install```
